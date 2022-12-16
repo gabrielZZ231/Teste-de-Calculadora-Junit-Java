@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<teste>
+<procedimento num="0" descricao="exponenciacao" >
+	<caso num="0">
+		<base>2</base>
+		<expoente>1</expoente>
+		<resultadoEsperado>2</resultadoEsperado>
+	</caso>
+	<caso num="1">
+		<base>3</base>
+		<expoente>0</expoente>
+		<resultadoEsperado>1</resultadoEsperado>
+
+	</caso>
+	<caso num="2">
+		<base>4</base>
+		<expoente>n</expoente>
+		<resultadoEsperado>-</resultadoEsperado>
+
+	</caso>
+	<caso num="3">
+		<base>5</base>
+		<expoente>-1</expoente>
+		<resultadoEsperado>0,2</resultadoEsperado>
+
+	</caso>
+	<caso num="4">
+		<base>-6</base>
+		<expoente>3</expoente>
+		<resultadoEsperado>-216</resultadoEsperado>
+
+	</caso>
+</procedimento>
+<procedimento num="1"  descricao="radiciacao">
+	<caso num="0">
+		<radicando>4</radicando>
+		<indice>2</indice>
+		<resultadoEsperado>2</resultadoEsperado>
+	</caso>
+	<caso num="1">
+		<radicando>16</radicando>
+		<indice>2</indice>
+		<resultadoEsperado>4</resultadoEsperado>
+
+	</caso>
+	<caso num="2">
+		<radicando>-100</radicando>
+		<indice>0</indice>
+		<resultadoEsperado>Infinity</resultadoEsperado>
+
+	</caso>
+	<caso num="3">
+		<radicando>-5</radicando>
+		<indice>1</indice>
+		<resultadoEsperado>-5</resultadoEsperado>
+
+	</caso>
+	<caso num="4">
+		<radicando>50</radicando>
+		<indice>10</indice>
+		<resultadoEsperado>1,4787576366283137</resultadoEsperado>
+	</caso>
+</procedimento>
+<procedimento num="2"  descricao="logaritmo">
+	<caso num="0">
+		<base>l</base>
+		<logaritmando>2</logaritmando>
+		<resultadoEsperado>-</resultadoEsperado>
+	</caso>
+	<caso num="1">
+		<base>8</base>
+		<logaritmando>500</logaritmando>
+		<resultadoEsperado>2,988594761554029</resultadoEsperado>
+
+	</caso>
+	<caso num="2">
+		<base>9</base>
+		<logaritmando>3</logaritmando>
+		<resultadoEsperado>0,5</resultadoEsperado>
+
+	</caso>
+	<caso num="3">
+		<base>-2</base>
+		<logaritmando>1</logaritmando>
+		<resultadoEsperado>NaN</resultadoEsperado>
+
+	</caso>
+	<caso num="4">
+		<base>500</base>
+		<logaritmando>8</logaritmando>
+		<resultadoEsperado>0,3346054181932693</resultadoEsperado>
+	</caso>
+</procedimento>
+</teste>
